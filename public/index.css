@@ -377,6 +377,142 @@ a {
   }
 }
 
+@media only screen and (max-width: 999px) {
+  h1.top {
+    font-size: 100px;
+    margin: 0px;
+    line-height: 0.5em;
+    padding-top: 10%;
+  }
+
+  h1.scope {
+    font-size: 100px;
+    margin: 0px;
+    padding-left: 50px;
+  }
+
+  h2.sub-scope {
+    font-size: 70px;
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 100px;
+    line-height: 0.5em;
+    display: inline-block;
+    padding-bottom: 20%;
+  }
+  h1.scope.recent {
+    padding-bottom: 10%;
+  }
+  h2.time-range {
+    font-size: 70px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin: 0px;
+    line-height: 0.5em;
+    display: inline-block;
+    padding-bottom: 0.4em;
+    border-bottom: 8px solid #1db954;
+    cursor: pointer;
+  }
+
+  .scope-list.tracks,
+  .scope-list.recent {
+    align-content: center !important;
+    justify-items: center !important;
+  }
+
+  .navbar-item {
+    font-size: 20px;
+  }
+
+  .scope-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+  }
+  .scope-item-number {
+    font-weight: bold;
+    color: #696969;
+    font-size: 30px;
+    display: inline-block;
+    padding-right: 15px;
+  }
+
+  .scope-item-title {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .scope-item-subtitle {
+    color: #696969;
+    font-weight: 400;
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .scope-list.artists {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 10px;
+  }
+  .scope-item-title.artists {
+    font-size: 25px;
+
+    padding-left: 15px !important;
+  }
+
+  .img-overlay {
+    border-radius: 100%;
+    display: flex;
+    flex: 0 0 100px;
+    height: 100px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+  }
+
+  img.scope-item-img.artists {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: -webkit-fill-available;
+    min-width: -moz-available;
+    z-index: 1;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+    background-color: #090c0f;
+  }
+  .now-playing-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .now-playing-title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .now-playing-artist {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+  }
+}
+
 .scope-list {
   display: grid;
   align-items: center;

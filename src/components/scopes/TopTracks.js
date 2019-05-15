@@ -71,7 +71,7 @@ class TopTracks extends React.Component {
           </div>
         </div>
         <div className="right-side">
-          <div className="scope-list">{this.renderList()}</div>
+          <div className="scope-list tracks">{this.renderList()}</div>
         </div>
       </section>
     );

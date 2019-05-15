@@ -43,11 +43,11 @@ class RecentlyPlayed extends React.Component {
         <div className="left-side">
           <div className="scope-description">
             <h1 className="top">Recently</h1>
-            <h1 className="scope">Played</h1>
+            <h1 className="scope recent">Played</h1>
           </div>
         </div>
         <div className="right-side">
-          <div className="scope-list">{this.renderList()}</div>
+          <div className="scope-list recent">{this.renderList()}</div>
         </div>
       </section>
     );
