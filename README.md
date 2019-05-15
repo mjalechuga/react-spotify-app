@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live: https://quincefy.herokuapp.com/ (not yet optimized for smaller screens)
 
 ## Additional Scripts
 + react-palette
