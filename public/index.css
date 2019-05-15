@@ -379,20 +379,20 @@ a {
 
 @media only screen and (max-width: 999px) {
   h1.top {
-    font-size: 100px;
+    font-size: 80px;
     margin: 0px;
     line-height: 0.5em;
     padding-top: 10%;
   }
 
   h1.scope {
-    font-size: 100px;
+    font-size: 80px;
     margin: 0px;
     padding-left: 50px;
   }
 
   h2.sub-scope {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     margin: 0px;
     padding-left: 100px;
@@ -404,7 +404,7 @@ a {
     padding-bottom: 10%;
   }
   h2.time-range {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     padding-left: 20px;
     margin: 0px;
@@ -413,6 +413,10 @@ a {
     padding-bottom: 0.4em;
     border-bottom: 8px solid #1db954;
     cursor: pointer;
+  }
+
+  .scope-section {
+    grid-template-columns: unset !important;
   }
 
   .scope-list.tracks,
@@ -439,7 +443,7 @@ a {
   }
 
   .scope-item-title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     display: inline-block;
     padding-right: 10px;
@@ -448,7 +452,7 @@ a {
   .scope-item-subtitle {
     color: #696969;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     cursor: pointer;
   }
@@ -459,6 +463,7 @@ a {
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-column-gap: 10px;
+    padding-left: 10%;
   }
   .scope-item-title.artists {
     font-size: 25px;
@@ -489,7 +494,7 @@ a {
     min-width: -webkit-fill-available;
     min-width: -moz-available;
     z-index: 1;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     cursor: pointer;
     padding-bottom: 10px;
