@@ -1,5 +1,5 @@
 ## 🍐 Quincefy
-show user's top 15 most played tracks or artists..... quincefy because quince === fifteen 🤠
+show user's top 15 most played tracks and artists..... quincefy because quince === fifteen 🤠
 
 see live: https://quincefy.herokuapp.com/ (not yet optimized for smaller screens)
 
