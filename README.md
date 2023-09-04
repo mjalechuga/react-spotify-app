@@ -1,7 +1,7 @@
 ## 🍐 Quincefy
 shows user's top 15 most played tracks and artists.....
 
-see live: https://quincefy.herokuapp.com/ (not yet optimized for most screens)
+see live: [https://mjalechuga.github.io/](https://mjalechuga.github.io/)
 
 ## Additional Scripts
 + react-palette
