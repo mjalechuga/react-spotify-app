@@ -7,6 +7,7 @@ import RecentlyPlayed from "./scopes/RecentlyPlayed";
 import SpotifyAuth from "./SpotifyAuth";
 import NowPlaying from "./scopes/NowPlaying";
 import history from "../history";
+import { subfolderPath } from "../config";
 
 class App extends React.Component {
   render() {
@@ -16,12 +17,12 @@ class App extends React.Component {
           <div className="container">
             <Header />
             <Switch>
-              <Route path="/" exact component={SpotifyAuth} />
+              <Route path={`${subfolderPath}/`} exact component={SpotifyAuth} />
 
-              <Route path="/top-tracks" exact component={TopTracks} />
-              <Route path="/top-artists" exact component={TopArtists} />
-              <Route path="/recently-played" exact component={RecentlyPlayed} />
-              <Route path="/now-playing" exact component={NowPlaying} />
+              <Route path={`${subfolderPath}/top-tracks`} exact component={TopTracks} />
+              <Route path={`${subfolderPath}/top-artists`} exact component={TopArtists} />
+              <Route path={`${subfolderPath}/recently-played`} exact component={RecentlyPlayed} />
+              <Route path={`${subfolderPath}/now-playing`} exact component={NowPlaying} />
             </Switch>
           </div>
         </Router>
