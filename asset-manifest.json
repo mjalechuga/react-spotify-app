@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react-spotify-app/static/js/main.bbc9ccd0.chunk.js",
-    "main.js.map": "/react-spotify-app/static/js/main.bbc9ccd0.chunk.js.map",
+    "main.js": "/react-spotify-app/static/js/main.a4dd0d93.chunk.js",
+    "main.js.map": "/react-spotify-app/static/js/main.a4dd0d93.chunk.js.map",
     "runtime~main.js": "/react-spotify-app/static/js/runtime~main.55b697cf.js",
     "runtime~main.js.map": "/react-spotify-app/static/js/runtime~main.55b697cf.js.map",
     "static/js/2.60ede610.chunk.js": "/react-spotify-app/static/js/2.60ede610.chunk.js",
     "static/js/2.60ede610.chunk.js.map": "/react-spotify-app/static/js/2.60ede610.chunk.js.map",
     "index.html": "/react-spotify-app/index.html",
-    "precache-manifest.d436a1e6baa1570096517393ead3b5fd.js": "/react-spotify-app/precache-manifest.d436a1e6baa1570096517393ead3b5fd.js",
+    "precache-manifest.f483f45a3520967b137c1c6cb3d8b47e.js": "/react-spotify-app/precache-manifest.f483f45a3520967b137c1c6cb3d8b47e.js",
     "service-worker.js": "/react-spotify-app/service-worker.js",
     "static/media/Spotify_Logo.png": "/react-spotify-app/static/media/Spotify_Logo.31bad8d4.png"
   }
